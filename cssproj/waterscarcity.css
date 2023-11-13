@@ -1,0 +1,208 @@
+.page121{
+    background-color: black;
+}
+.container23{
+    color:black;
+    background-color: white;
+    text-align:center;
+    width:100%;
+    padding:15px;
+    font-size:1.5em;
+    margin-left:0;
+}
+.jump{
+    display: flex;
+    position: static;
+    width: 50%;
+    margin-left:25%;
+    height:50px;
+    padding:0;
+}
+.fixed-cont{
+    position:relative;
+    background-color: black;
+    width:100%;
+    clear:left;
+    left:0;
+    z-index:1;
+    margin-left:0;
+    padding:0;
+}
+
+
+
+.fixed-nav-progress-bar {
+    position: relative;
+    top: 0;
+    background-color: #d77640;
+    height: 5px;
+    margin-left:25%;
+    margin-right:25%;
+    width: 0;
+    padding:0;
+    transition: width 0.3s;
+}
+.btn123{
+    display:inline-block;
+    margin-right:0;
+    width: 20%;
+    height:100%;
+    border:none;
+    margin:0;
+    color:white;
+    background-color: black;
+}
+.btn123:hover{
+    background-color: grey;
+}
+p{
+    color:white;
+}
+
+.hh2{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font: normal 2.em;
+    font-weight:bold;
+}
+
+.hh3{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    width:50%;
+    display: inline-block;
+}
+div div div{
+    width:90%;
+    margin-left:5%;
+    padding-left:2%;
+    padding-right:2%;
+    padding-top:1%;
+    padding-bottom:1%;
+    margin-bottom:2%;
+    display:inline-block;
+
+}
+div div div:hover{
+    background-color: white;
+    border-radius: 10px;
+}
+div div div:hover p{
+    color:black;
+}
+div div div:hover h2{
+    color:black;
+}
+div div div:hover h3{
+    color:black;
+}
+.bbox:hover div div{
+    filter: blur(5px);
+}
+#intro:hover{
+    filter:none;
+}
+#causes:hover{
+    filter:none;
+}
+#causes:hover #image23{
+    filter:none;
+}
+
+#impacts:hover{
+    filter:none;
+}
+#impacts:hover #image23{
+    filter:none;
+}
+#management:hover{
+    filter:none;
+}
+#management:hover #image23{
+    filter:none;
+}
+#policies:hover{
+    filter:none;
+}
+#policies:hover #image23{
+    filter:none;
+}
+/* Adjust the width of the #text element to occupy the left 50% of the parent div */
+#text {
+    width: 50%;
+    padding-right: 2%; /* Add some padding to create a gap between text and image */
+    display: inline-block; /* Display as inline-block to respect the width */
+}
+
+/* Adjust the styling for the #image element to occupy the right 50% of the parent div */
+#image {
+    margin-top:20px;
+    float : right; /* Display as inline-block to respect the width */
+    width: 48%; /* Adjust the width to leave some space for padding and avoid overflow */
+    margin-right: 0; /* Remove the margin-right to utilize the full width */
+    vertical-align: top; /* Align the image to the top */
+}
+
+#image23 {
+    height:100%;
+    margin-top:20px;
+    float : right; /* Display as inline-block to respect the width */
+    width: 48%; /* Adjust the width to leave some space for padding and avoid overflow */
+    margin-right: 0; /* Remove the margin-right to utilize the full width */
+    vertical-align: top; /* Align the image to the top */
+    margin-left:0;
+}
+#image12{
+    margin-top: 10%;
+    margin-bottom:50%;
+    float : right; /* Display as inline-block to respect the width */
+    width:90%;
+    margin-right:0; /* Remove the margin-right to utilize the full width */
+    vertical-align: top; /* Align the image to the top */
+    margin-left:0;
+}
+/* Clear the inline-block to ensure proper layout */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hh1{
+    display: inline-block;
+    font-size: bold;
+    font: normal 2.em;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left:30px;
+    
+}
+.button1234{
+    padding-top:4px;
+padding-bottom:4px;
+padding-left:12px;
+padding-right:12px;
+font-size:26px;
+color:white;
+background-color:rgb(235, 29, 63);
+border-radius:6px;
+border:none;
+float:right;
+    }
+.button1234:hover{
+    background-color:rgb(15,25,35);
+transition:1s;
+}
+
+@media only screen and (max-width: 767px) {
+    .jump {
+      display: none;
+    }
+    .button1234{
+        display: none;
+    }
+  }
+  
+
